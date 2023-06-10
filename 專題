@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>專題.html</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header style="height: 50px">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Team.png" alt="Team" height="50">
+                </a>
+                <a class="navbar-brand" href="#">『磁』器時代</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navitem">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navitem">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">回首頁</a>
+                            </li>
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product">產品資訊</a>
+                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#about us" data-bs-toggle="dropdown">關於我們</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#about us">計畫簡介</a>
+                                <a class="dropdown-item" href="#about us">設計概念</a>
+                                <a class="dropdown-item" href="#about us">科技應用</a>
+                                <a class="dropdown-item" href="#about us">特色價值</a>
+                                <a class="dropdown-item" href="#about us">未來目標</a>
+                                <a class="dropdown-item" href="#player">隊員簡介</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">最新消息</a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#new">公告訊息</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">聯絡我們</a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#call">聯絡表單</a>
+                            </div>                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <body
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="中國製.png" height ="895" width="550" class="d-block w-100" alt="中國">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>中國第一輛實測磁浮汽車</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="福斯.jpg" height ="895" width="550" class="d-block w-100" alt="福斯">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>福斯</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <div class="alert alert-light" role="alert"></div>
+    <div class="alert alert-light" role="alert"></div>
+    <hr size="8px" alert="center" width="100%" id="product">
+    <div class="alert alert-light" role="alert" ></div>
+    <div class="alert alert-light" role="alert"><h1  class="text-center"><b>產品資訊</h1></b></div>
+    <div class="alert alert-light" role="alert"><h3 class="text-center">款式、介紹</h3></div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="中國製.png" height="535" width="477" class="card-img-top" alt="中國">
+            <div class="card-body">
+              <h3 class="card-title">中國第一輛實測磁浮汽車</h3>
+              <h5 class="card-text">這輛磁浮汽車是由中國品牌汽車”比亞迪 G3″房車所改裝，原車重是1.2公噸，改裝後重達2.8公噸。“磁浮”科技主要能在最低阻力下高速行進，中國宣稱這輛磁浮汽車最快時速已經達到211km/h，雖然僅離地3.5公分且改裝零件重達1600公斤，不過重量這問題可以隨著科技進步而慢慢變輕，等待它更進一步的發展。</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="福斯.jpg"  height="535" width="477"class="card-img-top" alt="福斯">
+            <div class="card-body">
+              <h3 class="card-title">福斯</h3>
+              <h5 class="card-text">這是一輛沒有輪子、圓形車型，且能懸浮離地10公分的磁浮汽車，駕駛人員只需簡單的按下按鈕、說出目的地就能實現完全的自動駕駛。它的主要原理是利用高頻電磁場在金屬表面產生的渦流來實現對金屬物體的懸浮支撐。然而這只是福斯展出的磁浮汽車模型。期待未來科技能將此模型實現。</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert alert-light" role="alert"></div>
+      <div class="alert alert-light" role="alert"></div>
+      <hr size="8px" alert="center" width="100%" id="about us">
+      <div class="alert alert-light" role="alert" ></div>
+      <div class="alert alert-light" role="alert"><h1  class="text-center"><b>關於我們</h1></b></div>
+
+      <div class="row " >
+        <div class="card border-primary mb-3" style="max-width: 58.5rem;">
+            <div class="card-body text-primary">
+            <h3 class="text-center">計畫簡介</h3>
+            <figure class="text-center"><h4 class="card-text">運用磁浮技術的交通模式,基於各種因素考量,暫時無法在現今社會中運行,比如:製造並建築磁浮馬路、進口或是開採磁石、磁浮汽車的改裝和安全測試、交通安全法律的更新、舊汽機車的回收汰換等。</h4></figure>
+            </div>
+        </div>
+
+        <div class="card border-dark mb-3" style="max-width: 58.5rem;">
+            <div class="card-body text-dark">
+            <h3 class="text-center">設計概念</h3>
+            <figure class="text-center"><h4 class="card-text">目前可做的就是讓磁浮技術成熟,使用電腦3D建築軟體繪製未來磁浮改裝路面及汽車模型,為技術成熟後的實際運行做規劃。</h4></figure>
+            </div>
+        </div>
+      </div>
+
+      <div class="row " >
+        <div class="card border-success mb-3" style="max-width: 58.5rem;">
+            <div class="card-body text-success">
+            <h3 class="text-center">科技應用</h3>
+            <figure class="text-center"><h4 class="card-text">將磁浮列車的想法運用於汽車中。靠著磁鐵排斥力和吸引力的特性,及磁浮列車製造原理,來製造磁浮汽車所需的道路及汽車,並經過多次安全測試和改良來完成。</h4></figure>
+            </div>
+        </div>
+
+        <div class="card border-danger mb-3" style="max-width: 58.5rem;">
+            <div class="card-body text-danger">
+            <h3 class="text-center">特色價值</h3>
+            <figure class="text-center"><h4 class="card-text">實現汽機車如電影般漂浮的理想。提供給消防車、救護車及警車,外出緊急狀況時使用,可以花費更少的時間,並以最快速方式抵達現場處理問題。</h4></figure>
+            </div>
+        </div>
+      </div>
+
+    <div class="row ">
+        <div class="card border-info mb-3" style="max-width: 120rem;">
+            <div class="card-body text-info">
+            <h3 class="text-center">特色價值</h3>
+            <figure class="text-center"><h4 class="card-text">磁浮列車在短期內雖無法實施,但能將磁浮的技術運用在生活上(例如:簡單的運輸工具),它將會有低噪音、環保的效果。或者可以運用在日常生活中,作為簡單的輸送帶。例如:運用在迴轉壽司業,作為食物的輸送裝置,這樣不但新奇,且又有趣。 等未來資金充足、技術發達再將安全且執行性高的磁浮汽車推廣到全世界。</h4></figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-light" role="alert" id="player"></div>
+    <div class="alert alert-light" role="alert" ></div>
+    <div class="alert alert-light" role="alert"><h1  class="text-center"><b>隊員簡介</h1></b></div>
+
+    <table class="table-responsive">
+        <table width="100%" style="table-layout:fixed">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col" width="350px"><h4><b>科別</th></h4></b>
+                    <th scope="col" width="350px"><h4><b>班級</th></h4></b>
+                    <th scope="col" width="350px"><h4><b>學號</th></h4></b>
+                    <th scope="col" width="350px"><h4><b>姓名</th></h4></b>
+                    <th scope="col" ><h4><b>分工</th></h4></b>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td><h4>資料處理科</td></h4>
+                    <td><h4>二甲</td></h4>
+                    <td><h4>019105</td></h4>
+                    <td><h4>侯宛妡</td></h4>
+                    <td><h4>內容構想、PPT製作、報告</td></h4>
+
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td><h4>資料處理科</td></h4>
+                    <td><h4>二甲</td></h4>
+                    <td><h4>019109</td></h4>
+                    <td><h4>郭芷盈</td></h4>
+                    <td><h4>內容構想、網頁製作</td></h4>
+
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td><h4>資料處理科</td></h4>
+                    <td><h4>二甲</td></h4>
+                    <td><h4>019113</td></h4>
+                    <td><h4>黃姿璇</td></h4>
+                    <td><h4>內容構想、網頁架構圖製作</td></h4>
+
+                </tr>
+                </tbody>
+            </table>
+        </table>
+    </table>
+
+
+
+
+    <div class="alert alert-light" role="alert"></div>
+      <div class="alert alert-light" role="alert"></div>
+      <hr size="8px" alert="center" width="100%" id="about us">
+      <div class="alert alert-light" role="alert" ></div>
+      <div class="alert alert-light" role="alert"><h1  class="text-center"><b>最新消息</h1></b></div>
+
+    <div class="container">
+        <div class="alert alert-primary mt-2" role="alert">
+            <div class="spinner-grow text-primary"></div>
+            <a  class="alert-link" id="new">公告新訊</a>
+        </div>
+        <h4 class="text-center"><b>暫無新訊</h4></b>
+    </div>
+
+
+    <div class="alert alert-light" role="alert"></div>
+    <div class="alert alert-light" role="alert"></div>
+    <hr size="8px" alert="center" width="100%" id="about us">
+    <div class="alert alert-light" role="alert" id="call"></div>
+    <div class="alert alert-light" role="alert"><h1  class="text-center"><b>聯絡我們</h1></b></div>
+    <div class="alert alert-light" role="alert"><h3 class="text-center">聯絡表單</h3></div>
+
+
+    <div class="text-center">
+        <form action="submit_form.php" method="post">
+            <form action="cgi-bin/get.exe" method="get">
+                <label for="name">你的姓名:&nbsp;</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">郵件地址:&nbsp;</label>
+                <input type="email" id="email" name="e_mail" placeholder="deep@me.com" required>
+
+                <label for="message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留言:&nbsp;</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <div class="alert alert-light" role="alert"></div>
+                <p><input type="submit" value="送出">
+                <input type="reset" value="取消"></p>
+            </form>
+        </form>
+    </div>
+
+<footer>
+    <div class="text-center">
+        <hr>
+        <p>&reg 版權所有 &reg</p>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
